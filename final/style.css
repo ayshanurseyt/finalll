@@ -1,0 +1,202 @@
+:root {
+  --color1: #6e20a3;
+  --color2: #7db2e8;
+}
+footer{
+  padding: 30px;
+}
+header , section {
+    padding: 100px 0;
+}
+header {
+  padding: 80px 0;
+}
+.container{
+  padding: 30 px;
+}
+
+input{
+  padding: 100 px;
+  margin: 100 px;
+  border: 100 px ;
+}
+
+header , footer {
+  background: #6e20a3;
+background: -moz-linear-gradient(left, #6e20a3 0%, #7db2e8 100%);
+background: -webkit-linear-gradient(left, #6e20a3 0%,#7db2e8 100%);
+background: linear-gradient(to right, #6e20a3 0%,#7db2e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e20a3', endColorstr='#7db2e8',GradientType=1 );
+}
+
+.btn-itd {
+  display: block;
+  max-width: 130px;
+  margin: 0 auto;
+  padding: 8px 30px;
+  color: var(--color2);
+}
+.btn-itd:hover {
+  color:var(--bs-white);
+ background-color: var(--color2);
+}
+
+table {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+ #link{
+	background-color: #BAABDA;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 100%;
+  }
+
+a {color:#666;}
+
+#content {width:65%; max-width:690px; margin:6% auto 0;}
+
+table {
+	overflow:hidden;
+	border:1px solid #d3d3d3;
+	background:#fefefe;
+	width:70%;
+	margin:5% auto 0;
+	-moz-border-radius:5px; /* FF1+ */
+	-webkit-border-radius:5px; /* Saf3-4 */
+	border-radius:5px;
+
+}
+
+th, td {padding:18px 28px 18px; text-align:center; }
+
+th {padding-top:22px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+
+td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+
+tr.odd-row td {background:#f6f6f6;}
+
+td.first, th.first {text-align:left}
+
+td.last {border-right:none;}
+
+
+td {
+	background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+	background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+}
+
+tr.odd-row td {
+	background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+	background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+}
+
+th {
+	background: -moz-linear-gradient(100% 20% 90deg, #e8eaeb, #ededed);
+	background: -webkit-gradient(linear, 0% 0%, 0% 20%, from(#ededed), to(#e8eaeb));
+}
+
+tr:first-child th.first {
+	-moz-border-radius-topleft:5px;
+
+}
+
+tr:first-child th.last {
+	-moz-border-radius-topright:5px;
+
+}
+
+tr:last-child td.first {
+	-moz-border-radius-bottomleft:5px;
+
+}
+
+tr:last-child td.last {
+	-moz-border-radius-bottomright:5px;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+section {
+	padding: 50px 0;
+}
+
+a {
+	color: #111;
+}
+
+a:hover {
+	color: #555;
+}
+
+/* Header */
+
+/* Carousel */
+
+   .img-fluid   {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+    margin-top: 0; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+    color: #666; /* Цвет подрисуночной подписи */
+   }
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+	background-color: #ccc;
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+	padding: 0 18px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+  }
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#ph {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
